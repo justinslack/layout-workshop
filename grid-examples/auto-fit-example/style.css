@@ -1,0 +1,154 @@
+/* Styles for auto fit example */
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3427205, 2017-07-25T08:48:50-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed ../fonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: FF Mark Web Pro Regular by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/mark/pro-regular/
+ * Copyright: 2016 published by Monotype GmbH
+ *
+ * Webfont: FF Mark Web Pro ExtraLight by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/mark/pro-extralight/
+ * Copyright: 2013 published by FontShop International GmbH
+ *
+ * Webfont: FF Mark Web Pro Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/mark/pro-italic/
+ * Copyright: 2013 published by FontShop International GmbH
+ *
+ * Webfont: FF Mark Web Pro Bold by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/mark/pro-bold/
+ * Copyright: 2013 published by FontShop International GmbH
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3427205
+ * Licensed pageviews: 50,000
+ *
+ * © 2017 MyFonts Inc
+*/
+@font-face {
+  font-family: 'FFMark';
+  font-weight: 300;
+  src: url('fonts/3457C6_2_0.woff2') format('woff2'),
+       url('fonts/3457C6_2_0.woff') format('woff');
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'FFMark';
+  font-weight: 400;
+  font-style: normal;
+  src: url('fonts/3457C6_0_0.woff2') format('woff2'),
+       url('fonts/3457C6_0_0.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FFMark';
+  font-weight: 400;
+  font-style: italic;
+  src: url('fonts/3457C6_3_0.woff2') format('woff2'),
+       url('fonts/3457C6_3_0.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FFMark';
+  font-weight: 600;
+  font-style: normal;
+  src: url('fonts/3457C6_5_0.woff2') format('woff2'),
+       url('fonts/3457C6_5_0.woff') format('woff');
+  font-display: swap;
+}
+
+html {
+  background-color: white;
+  box-sizing: border-box;
+  height: 100%;
+  max-height: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  color:  #006341;
+  font-family: "FFMark", sans-serif;
+  font-size: 100%;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.container {
+  margin: 80px auto;
+  max-width: 960px;
+}
+
+.grid {
+  padding: 2rem;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.grid > div {
+  display:  grid;
+}
+
+/* Extra styling */
+
+label {
+  color:  inherit;
+  display: block;
+  margin: 0 0 0.5rem;
+}
+
+::-webkit-input-placeholder {
+  color: #009639;
+}
+
+::-moz-placeholder {
+  color: #009639;
+}
+
+:-ms-input-placeholder {
+  color: #009639;
+}
+
+.text-input {
+  border:  2px solid #bbb;
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 300;
+  padding: 1rem;
+  width: 100%;
+}
+
+.text-input:focus {
+  border-color: #999;
+}
+
+.button {
+  background-color: #009639;
+  border-radius: 0.23rem;
+  border: 0;
+  color: #ffffff;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 1.125rem;
+  font-weight: 400;
+  height:  58px;
+  margin-top: auto;
+  padding: 1rem 1.25rem;
+  text-align: center;
+  transition: all 250ms ease-in;
+}
