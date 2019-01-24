@@ -29,12 +29,12 @@ h2 {
 }
 
 p {
-   margin: 0;
+   margin-bottom: 0;
 }
 
 img {
   max-width:  100%;
-  width:  100%;
+  /* width:  100%; */
 }
 
 /* grid stuffs */
@@ -65,6 +65,11 @@ img {
       'avatar name'
       'bio bio';
   }
+
+  p {
+    margin: 0;
+  }
+
 }
 
 .user-profile__username {
@@ -76,12 +81,19 @@ img {
   justify-content: space-evenly;
 }
 
-.user-profile__username span > span {
+.user-profile__username p > span {
   color: #ff0168;
+  font-weight:  bold;
 }
 
 .user-profile__avatar {
+  display: flex;
   grid-area: avatar;
+  justify-content: center;
+}
+
+.user-profile__avatar img {
+  border-radius:  100%;
 }
 
 .user-profile__bio {

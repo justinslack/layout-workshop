@@ -9,7 +9,6 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to right top, #b44664, #af4061, #ab395e, #a6325c, #a12b59, #9c265c, #962260, #901e63, #85216e, #772678, #662b81, #4f3188);
   font-family: "Open Sans", sans-serif;
 
   display: flex;
@@ -18,8 +17,6 @@ body {
   justify-content: center;
 
   margin: 0;
-  height:  100vh;
-  width:  100vw;
 }
 
 *, *::before, *::after {
@@ -28,36 +25,40 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 450px);
-  grid-template-rows: repeat(2, 300px);
-
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 50%);
+  height:  100vh;
+  width:  100vw;
 }
 
 a {
-  color:  white;
+  color: white;
   font-size:  2.5rem;
   display: flex;
   align-items:  center;
+  flex-direction: column;
   justify-content: center;
+  padding: 2rem 10rem;
+  text-align: center;
   text-decoration: none;
 }
 
-a:hover {
-  box-shadow: inset 0px 0px 5px 3px rgba(0,0,0,0.4);
-}
-
 a:nth-of-type(1) {
-  background-color: rgba(0,0,0,0.4);
+  background-color: #FF5959;
+  color: #1C1E22;
 }
 
 a:nth-of-type(2) {
-  background-color: rgba(0,0,0,0.3);
-}
-
-a:nth-of-type(3) {
-  background-color: rgba(0,0,0,0.2);
+  background-color: #1C1E22;
+  color: white;
 }
 
 a:nth-of-type(4) {
-  background-color: rgba(0,0,0,0.1);
+  background-color: #333333;
+  color: white;
+}
+
+a:nth-of-type(3) {
+  background-color: white;
+  color: #1C1E22;
 }
