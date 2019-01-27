@@ -23,6 +23,10 @@ body {
   box-sizing: inherit;
 }
 
+h2 {
+  margin-bottom: 0;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 50%);
@@ -38,7 +42,7 @@ a {
   align-items:  center;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem 10rem;
+  padding: 2rem 5rem;
   text-align: center;
   text-decoration: none;
 }
