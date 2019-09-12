@@ -25,16 +25,16 @@ body {
 
 .site-header {
   border-radius: 5px;
+  box-shadow: 0 2px 50px rgba(0, 0, 0, 0.19);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 1rem;
-  box-shadow: 0 2px 50px rgba(0, 0, 0, 0.19);
 }
 
 .site-header-section {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .site-header-item {
@@ -46,12 +46,12 @@ body {
 }
 
 .site-header-item.is-selected {
-  color: #ffffff;
   background-color: #1798c1;
   border-radius: 4px;
+  color: #ffffff;
 }
 
 .site-header-button {
-  cursor: pointer;
   color: #1798c1;
+  cursor: pointer;
 }
