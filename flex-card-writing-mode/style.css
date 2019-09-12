@@ -1,0 +1,72 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  background-color: #f3eeec;
+  box-sizing: border-box;
+  height: 100%;
+  max-height: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  color:  #006341;
+  font-family: monospace;
+  font-size: 100%;
+  margin: 0;
+}
+
+a {
+  color: coral;
+  font-size: 1.25em;
+}
+
+img {
+  box-shadow: 0 2px 50px rgba(0, 0, 0, .19);
+  height: auto;
+  max-width: 100%;
+  transition: .3s all ease-in-out;
+}
+
+img:hover {
+  box-shadow: 0 2px 50px rgba(0, 0, 0, .5);
+}
+
+.container {
+  margin: 40px auto;
+  max-width: 500px;
+}
+
+.news-item-container {
+  padding: 80px 40px;
+}
+
+.news-item-container img {
+  object-fit: contain;
+}
+
+.content {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 60px;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.25;
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.title-link {
+  padding-left: 2rem;
+}
+
+.date {
+  margin-block-start: 0;
+  text-transform: uppercase;
+  writing-mode: sideways-lr; 
+}
