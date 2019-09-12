@@ -29,7 +29,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 1rem;
-  box-shadow: 0 2px 50px rgba(0, 0, 0, .19);
+  box-shadow: 0 2px 50px rgba(0, 0, 0, 0.19);
 }
 
 .site-header-section {
