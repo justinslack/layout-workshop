@@ -10,9 +10,9 @@ body {
 }
 
 main {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-gap: 1rem;
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
+  /* grid-gap: 1rem; */
 }
 
 img {
@@ -22,9 +22,9 @@ img {
   /*object-fit: cover;*/
 }
 
-/* div:nth-of-type(9) {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-   grid-row-end: 2;
-} */
+div:nth-of-type(9) {
+  /* grid-column-start: 1; */
+  /* grid-column-end: 2; */
+  /* grid-row-start: 1; */
+  /* grid-row-end: 2; */
+}

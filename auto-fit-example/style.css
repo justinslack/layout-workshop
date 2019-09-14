@@ -23,14 +23,14 @@ body {
 }
 
 .grid {
+  /* display: grid; */
+  /* grid-gap: 2rem; */
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
   padding: 2rem;
-  display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .grid > div {
-  display:  grid;
+  /* display:  grid; */
 }
 
 /* Extra styling */

@@ -47,10 +47,9 @@ img:hover {
 }
 
 .content {
-  align-items: flex-start;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
+  /* align-items: flex-start; */
+  /* display: flex; */
+  /* justify-content: space-between; */ 
   margin-top: 60px;
 }
 
@@ -68,5 +67,5 @@ h2 {
 .date {
   margin-block-start: 0;
   text-transform: uppercase;
-  writing-mode: sideways-lr; 
+  /* writing-mode: sideways-lr; */
 }

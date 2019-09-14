@@ -27,25 +27,25 @@ body {
 }
 
 .aligner {
+  /* align-items: center; */
   background: hsla(31,15%,50%,.1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
   margin-bottom: 3rem;
-  padding: .8em 1em;
   min-height: 24em;
+  padding: .8em 1em;
 }
 
 .aligner-item {
-  flex: 1;
+  /* flex: 1; */
   max-width: 50%;
 }
 
 .aligner-item--top {
-  align-self: flex-start;
+  /* align-self: flex-start; */
 }
 
 .aligner-item--bottom {
-  align-self: flex-end;
+  /* align-self: flex-end; */
 }
 

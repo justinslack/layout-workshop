@@ -28,10 +28,10 @@ h2 {
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(minmax(13rem, 1fr));
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+  /* grid-template-columns: repeat(4, 1fr); */
+  /* grid-template-rows: repeat(minmax(13rem, 1fr)); */
   min-height: 100vh;
 }
 
@@ -42,17 +42,17 @@ h2 {
 
   color:  white;
 
-  display: flex;
+  /* display: flex; */
 
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
 }
 
 .grid > div:nth-of-type(1) {
   background-image: linear-gradient(45deg, rgba(105, 166, 255, 0.8) 0%, rgba(255, 105, 116, 0.6) 99%), url(../img/mountain.jpg);
 
-  grid-row-start: span 2;
-  grid-column-start: span 2;
+  /* grid-row-start: span 2; */
+  /* grid-column-start: span 2; */
 
 }
 
@@ -60,16 +60,16 @@ h2 {
    background-image: linear-gradient(45deg, rgba(0, 104, 20, 0.6) 0%, rgba(0, 50, 20, 0.6) 99%), url(../img/forest.jpg);
   color:  pink;
 
-  grid-column-start: span 2;
+  /* grid-column-start: span 2; */
 }
 
 .grid > div:nth-of-type(3) {
   background-color:  #333;
   padding:  2rem;
 
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: start;
+  /* align-items: flex-start; */
+  /* flex-direction: column; */
+  /* justify-content: start; */
 }
 
 .grid > div:nth-of-type(4) {
@@ -79,11 +79,11 @@ h2 {
 .grid > div:nth-of-type(5) {
   background-image: linear-gradient(45deg, rgba(0, 42, 255, 0.4) 0%, rgba(13, 35, 76, 0.9) 99%), url(../img/sea.jpg);
 
-  grid-column-start: span 2;
+  /* grid-column-start: span 2; */
 }
 
 .grid > div:nth-of-type(6) {
   background-image: linear-gradient(45deg, rgba(0, 104, 20, 0.6) 0%, rgba(255, 105, 116, 0.9) 99%), url(../img/hils.jpg);
 
-  grid-column-start: span 2;
+  /* grid-column-start: span 2; */
 }

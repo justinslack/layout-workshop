@@ -34,7 +34,6 @@ p {
 
 img {
   max-width:  100%;
-  /* width:  100%; */
 }
 
 /* grid stuffs */
@@ -49,21 +48,21 @@ img {
   transition: all 1s;
   width: 100%;
 
-  display: grid;
-  grid-column-gap: 2rem;
-  grid-row-gap: 2rem;
-  grid-template-areas:
+  /* display: grid; */
+  /* grid-column-gap: 2rem; */
+  /* grid-row-gap: 2rem; */
+  /* grid-template-areas:
       'avatar'
       'name'
-      'bio';
+      'bio'; */
 
 }
 
 @media (min-width: 700px) {
   .user-profile {
-    grid-template-areas:
+    /* grid-template-areas:
       'avatar name'
-      'bio bio';
+      'bio bio'; */
   }
 
   p {
@@ -74,11 +73,11 @@ img {
 
 .user-profile__username {
   color:  #848383;
-  grid-area: name;
+  /* grid-area: name; */
 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-evenly; */
 }
 
 .user-profile__username p > span {
@@ -87,9 +86,9 @@ img {
 }
 
 .user-profile__avatar {
-  display: flex;
+  /* display: flex; */
   grid-area: avatar;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .user-profile__avatar img {
@@ -99,7 +98,7 @@ img {
 .user-profile__bio {
   border-top:  1px solid #ff0168;
   padding-top:  2rem;
-  grid-area: bio;
+  /* grid-area: bio; */
 }
 
 

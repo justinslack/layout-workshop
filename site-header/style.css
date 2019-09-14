@@ -26,15 +26,15 @@ body {
 .site-header {
   border-radius: 5px;
   box-shadow: 0 2px 50px rgba(0, 0, 0, 0.19);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
   padding: 1rem;
 }
 
 .site-header-section {
-  align-items: center;
-  display: flex;
+  /* align-items: center; */
+  /* display: flex; */ 
 }
 
 .site-header-item {
